@@ -14,7 +14,13 @@ body {
   background-color: #fa9492;
   background-image: linear-gradient(109.6deg, #ff9190 11.3%, #eb7295 91.1%);
   height: 100vh;
-  padding: 25% 6rem;
+  position: relative
+}
+.fuckcss {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 .project-name {
   font-family: 'Montserrat', sans-serif;
